@@ -25,7 +25,7 @@ def index():
     return render_template('home.html')
 @app.route('/about')
 def about():
-    return "<h1 class = "text-center">Coming Soon...</h1>"
+    return "<h1>Coming Soon...</h1>"
 @app.route('/login')
 def login():
     return render_template('login.html')
